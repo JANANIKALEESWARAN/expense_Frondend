@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Expenceform from './Expenseform.jsx'
+import Expenseform from './Expenseform.jsx'
 import History from './History.jsx'
 import BalanceContainer from './BalanceContainer.jsx';
 /*import Modelform from './Modelform.jsx';*/
@@ -62,7 +62,7 @@ console.log(expense[0])
       <BalanceContainer expense={expense}/>
       <h1>Expense Tracker</h1>
         <History expense={expense} deleteExpense={deleteExpense}/>
-        <Expenceform addExpense={addExpense}/>
+        <Expenseform addExpense={addExpense}/>
     </div>
   )
 

@@ -38,7 +38,7 @@ const [amount,SetAmount] = useState(0)
                 />
             </div>
             <div className='form-group'>
-                <label htmlFor='amount' classname='form-label'>Amount($)</label>
+                <label htmlFor='amount' className='form-label'>Amount($)</label>
                 <input
                 type="number"
                 id="amount"
